@@ -38,37 +38,6 @@ h1 {
     background-color: hsl(0, 0%, 100%);
 }
 
-@media screen and (max-width: 800px) {
-    #image-perfume {
-        display: none;
-    }
-
-    #image-perfume-mobile {
-        display: block;
-        width: 350px;
-        border-top-left-radius: 12px;
-        border-top-right-radius: 12px;
-    }
-
-    #contain-perfume-box {
-        display: flex;
-        flex-direction: column;
-        width: 350px;
-        margin: 50px auto 50px auto;
-    }
-
-    #price-contain {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        padding-right: 70px;
-        padding-bottom: 15px;
-    }
-
-}
-
-
 #contain-text {
     padding: 30px 35px 30px 35px;
     text-align: left;
@@ -98,7 +67,7 @@ h1 {
 }
 
 #text-main-styling {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 24px;
     opacity: .9;
@@ -128,6 +97,62 @@ h1 {
 #button-styling:active {
     background-color: hsl(212, 21%, 14%);
     cursor: pointer;
+}
+
+
+@media screen and (max-width: 500px) {
+    #image-perfume {
+        display: none;
+    }
+
+    #image-perfume-mobile {
+        display: flex;
+        width: 350px;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+
+    #contain-perfume-box {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        margin: 50px auto 50px auto;
+    }
+
+    #contain-text {
+        padding: 20px 30px;
+    }
+
+    #text-main-styling {
+        margin: 0;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        opacity: .9;
+    }
+
+    #title-text-styling {
+        margin: 0 0 15px 0;
+        padding-right: 10px;
+        line-height: 30px;
+    }
+    
+    #price-contain {
+        padding-bottom: 0;
+    }
+
+    #before-price-styling {
+        padding-right: 70px;
+    }
+
+    #button-styling {
+        justify-content: center;
+    }
+
+    #button-styling img {
+        margin-right: 10px;       
+    }
+
 }
 
 /* UTILITY CLASSES */
