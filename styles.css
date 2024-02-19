@@ -9,6 +9,10 @@ p {
     font-size: 14px;
 }
 
+h1 {
+    font-size: 30px;
+}
+
 .attribution {
     font-size: 11px; text-align: center;
  }
@@ -19,7 +23,12 @@ p {
 #contain-perfume-box {
     display: flex;
     flex: row;
+    width: 500px;
     background-color: hsl(0, 0%, 100%);
+}
+
+#contain-text {
+    margin-right: 30px;
 }
 
 #text-main-styling {
@@ -28,15 +37,22 @@ p {
 
 #image-perfume {
     width: 250px;
-    height: 350px;
+    min-height: 350px;
+    margin-right: 25px;
+}
+
+#title-text-styling {
+
 }
 
 .mon-class {
     font-family: "Montserrat", sans-serif;
+    word-wrap: break-word;
 }
 
 .frau-class {
     font-family: "Fraunces", serif;
+    word-wrap: break-word;
 }
 
 
