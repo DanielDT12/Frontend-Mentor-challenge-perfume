@@ -6,6 +6,7 @@ body {
 }
 
 p {
+    color: hsl(228, 12%, 48%);
     font-size: 14px;
 }
 
@@ -13,38 +14,79 @@ h1 {
     font-size: 30px;
 }
 
-.attribution {
-    font-size: 11px; text-align: center;
- }
-.attribution a {
-    color: hsl(228, 45%, 44%); 
+/* image styling */
+#image-perfume {
+    width: 300px;
+    min-height: 450px;
 }
+/* image styling */
 
+/* CONTAIN STYLING */
 #contain-perfume-box {
     display: flex;
     flex: row;
-    width: 500px;
+    width: 600px;
     background-color: hsl(0, 0%, 100%);
 }
 
 #contain-text {
-    margin-right: 30px;
+    padding: 20px 35px 20px 35px;
+    text-align: left;
+}
+
+#price-contain {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 40px;
+}
+/* CONTAIN STYLING */
+
+#top-text-styling {
+    margin-top: 0;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#title-text-styling {
+    padding-right: 10px;
 }
 
 #text-main-styling {
     font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
 }
 
-#image-perfume {
-    width: 250px;
-    min-height: 350px;
-    margin-right: 25px;
+#before-price-styling {
+    font-size: 12px;
+    text-decoration: line-through;
 }
 
-#title-text-styling {
-
+#now-price-text {
+    color: hsl(158, 36%, 37%);
 }
 
+#button-styling {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 15px 55px;
+    border: none;
+    border-radius: 7px;
+    color: hsl(30, 38%, 92%);
+    background-color: hsl(158, 36%, 37%);
+    font-weight: 700;
+}
+
+#button-styling:active {
+    background-color: hsl(212, 21%, 14%);
+    cursor: pointer;
+}
+
+/* UTILITY CLASSES */
 .mon-class {
     font-family: "Montserrat", sans-serif;
     word-wrap: break-word;
@@ -54,6 +96,17 @@ h1 {
     font-family: "Fraunces", serif;
     word-wrap: break-word;
 }
+/* UTILITY CLASSES */
+
+
+/* FONT AND PRESTYLING */
+.attribution {
+    font-size: 11px; text-align: center;
+ }
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+/* FONT AND PRESTYLING */
 
 
 /* fonts
