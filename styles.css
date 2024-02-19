@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+
+p {
+    font-size: 14px;
+}
+
+.attribution {
+    font-size: 11px; text-align: center;
+ }
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+#contain-perfume-box {
+    display: flex;
+    flex: row;
+    background-color: hsl(0, 0%, 100%);
+}
+
+#text-main-styling {
+    font-size: 16px;
+}
+
+#image-perfume {
+    width: 250px;
+    height: 350px;
+}
+
+.mon-class {
+    font-family: "Montserrat", sans-serif;
+}
+
+.frau-class {
+    font-family: "Fraunces", serif;
+}
+
+
+/* fonts
+
+.fraunces-<uniquifier> {
+  font-family: "Fraunces", serif;
+}
+
+fonts */
+/*
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+}
+*/
