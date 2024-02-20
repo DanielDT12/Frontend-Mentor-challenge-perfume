@@ -100,7 +100,7 @@ h1 {
 /* Button styling */
 
 /* Media query for mobil view */
-@media screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
     /* Deaktivering av bilde for desktop */
     #image-perfume {
         display: none;
