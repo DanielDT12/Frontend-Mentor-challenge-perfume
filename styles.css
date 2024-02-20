@@ -1,3 +1,11 @@
+html {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -33,7 +41,6 @@ h1 {
     display: flex;
     flex: row;
     width: 600px;
-    margin: 200px auto 0 auto;
     border-radius: 12px;
     background-color: hsl(0, 0%, 100%);
 }
@@ -100,7 +107,7 @@ h1 {
 /* Button styling */
 
 /* Media query for mobil view */
-@media only screen and (max-width: 450px) {
+@media screen and (max-width: 450px) {
     /* Deaktivering av bilde for desktop */
     #image-perfume {
         display: none;
@@ -120,11 +127,10 @@ h1 {
         display: flex;
         flex-direction: column;
         width: 350px;
-        margin: 50px auto 50px auto;
     }
 
     #contain-text {
-        padding: 20px 30px;
+        padding: 30px;
     }
 
     #price-contain {
@@ -133,6 +139,10 @@ h1 {
     /* contain styling */
 
     /* text styling */
+    #top-text-styling {
+        margin-bottom: 15px;
+    }
+
     #title-text-styling {
         margin: 0 0 15px 0;
         padding-right: 10px;
@@ -147,7 +157,7 @@ h1 {
     }
 
     #before-price-styling {
-        padding-right: 70px;
+        padding-right: 55px;
     }
     /* text styling */
     
@@ -179,7 +189,6 @@ h1 {
 
 /* FONT AND PRESTYLING */
 .attribution {
-    margin-top: 40px;
     font-size: 11px; text-align: center;
  }
 .attribution a {
