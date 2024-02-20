@@ -20,8 +20,7 @@ h1 {
     object-fit: cover;
     width: 300px;
     height: auto;
-    border-top-left-radius: 12px;
-    border-bottom-left-radius: 12px;
+    border-radius: 12px 0 0 12px;
 }
 
 #image-perfume-mobile {
@@ -34,7 +33,7 @@ h1 {
     display: flex;
     flex: row;
     width: 600px;
-    margin: 50px auto 50px auto;
+    margin: 200px auto 0 auto;
     border-radius: 12px;
     background-color: hsl(0, 0%, 100%);
 }
@@ -49,8 +48,7 @@ h1 {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding-right: 40px;
-    padding-bottom: 15px;
+    padding-right: 35px;
 }
 /* CONTAIN STYLING */
 
@@ -64,17 +62,16 @@ h1 {
 
 #title-text-styling {
     padding-right: 10px;
-    line-height: 30px;
+    line-height: 32px;
 }
 
 #text-main-styling {
-    font-size: 14px;
     font-weight: 500;
     line-height: 24px;
 }
 
 #before-price-styling {
-    font-size: 12px;
+    font-size: 14px;
     text-decoration: line-through;
 }
 
@@ -91,19 +88,19 @@ h1 {
     padding: 15px 55px;
     border: none;
     border-radius: 7px;
-    color: hsl(30, 38%, 92%);
+    color: hsl(0, 0%, 100%);
     background-color: hsl(158, 36%, 37%);
     font-weight: 700;
 }
 
-#button-styling:active {
+#button-styling:hover {
     background-color: hsl(212, 21%, 14%);
     cursor: pointer;
 }
 /* Button styling */
 
 /* Media query for mobil view */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
     /* Deaktivering av bilde for desktop */
     #image-perfume {
         display: none;
@@ -112,10 +109,9 @@ h1 {
 
     /* image styling */
     #image-perfume-mobile {
-        display: flex;
+        display: block;
         width: 350px;
-        border-top-left-radius: 12px;
-        border-top-right-radius: 12px;
+        border-radius: 12px 12px 0 0;
     }
     /* image styling */
 
@@ -183,6 +179,7 @@ h1 {
 
 /* FONT AND PRESTYLING */
 .attribution {
+    margin-top: 40px;
     font-size: 11px; text-align: center;
  }
 .attribution a {
