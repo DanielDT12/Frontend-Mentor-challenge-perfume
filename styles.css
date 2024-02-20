@@ -189,9 +189,13 @@ h1 {
 
 /* FONT AND PRESTYLING */
 .attribution {
-    font-size: 11px; text-align: center;
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 14px; text-align: center;
  }
 .attribution a {
+    font-family: "Montserrat", sans-serif;
     color: hsl(228, 45%, 44%); 
 }
 /* FONT AND PRESTYLING */
